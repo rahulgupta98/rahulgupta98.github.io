@@ -1,0 +1,195 @@
+.body{
+  padding: 15px !important;
+}
+.arc text {
+    font: 10px sans-serif;
+    text-anchor: middle;
+  }
+  
+  .arc path {
+    stroke: #fff;
+  }
+  .axis path,
+                      .axis line {
+                          fill: none;
+                          stroke: black;
+                          shape-rendering: crispEdges;
+                      }
+                      .axis text {
+                          font-family: sans-serif;
+                          font-size: 11px;
+                      }
+  div.full-page {
+    width: 100%;
+    border: 1px solid black;
+  }
+  .head  {
+    width: 98%;
+    height: 50px;
+    
+      padding-top: 15px;
+      padding-left: 13px;
+      padding-right: 13px;
+        
+     font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+    position: relative;
+     
+  }
+  
+  div.menu {
+    width: 100%;
+    height: 40px;
+   
+  }
+  div.document {
+    width: 80%;
+    
+    padding-top: 5px;
+     padding-left: 10%;
+     padding-right: 10%;
+     padding-bottom: 50px;
+ 
+  }
+
+  div.document p{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #252525;
+    text-align: justify
+  
+  }
+  div.document h1{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #028c96;
+    line-height: 1.5em;
+  
+    
+    text-decoration: underline;
+  
+  }
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    
+  }
+  div.main {
+    width: 100%;
+    
+    height: 610px;
+    padding-top: 5px;
+   
+   
+     
+  }
+  div.main_map {
+       width: 53%;
+       height: 610px;
+      float: left;
+       
+  }
+  
+  div.button_main {
+       width: 18%;
+       height: 30px;
+      float: left;
+        padding-top: 5px;  
+        padding-left: 5px;  
+        padding-right: 5px;  
+        padding-bottom: 5px;  
+  }
+  
+  ::selection{
+    color: #fff;
+    background: #17A2B8;
+  }
+  
+  
+  div.main_bar {
+        width: 45%;
+        height: 600px;
+        padding-top: 10px;
+        padding-left: 1px;
+        
+      float: left;
+    
+  }
+  div.foot {
+    width: 100%;
+    height: 230px;
+    padding-top: 20px;
+  
+    
+    
+  
+  }
+  
+  div.foot_toatlpie {
+        width: 49%;
+        height: 220px;
+        padding-top: 10px;
+      float: left;
+    
+   
+  }
+  
+  
+  div.foot_MFpie {
+        width: 49%;
+        height: 220px;
+        padding-top: 10px;
+  
+        padding-left: 10px;
+      float: right;
+    
+  }
+  div.tooltip {
+       position: absolute;
+       text-align: center;
+       padding: .3rem;
+       background: #fff7fb;
+       
+       border: 1px solid #313639;
+       border-radius: 5px;
+       pointer-events: none;
+       font-size: 0.9rem;
+  }
+  .axis-grid line {
+    stroke: #def;
+  }
+  .menu {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .menu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 46px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .head a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.drop{
+  margin-top: 20px !important;
+}
+.drop-lg{
+  margin-top: 50px !important;
+} 
+  label{
+      width: 10%;
+      height: 15px;
+  }
+  

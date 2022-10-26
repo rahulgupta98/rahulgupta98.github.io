@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Project-1</title>
+		<link  rel="stylesheet" href="bootstrap/css/bootstrap.min.css"></link>
+	   	<script src="bootstrap/js/bootstrap.min.js"></script>
+       	<link rel="stylesheet"  href="css/Styles.css">
+        <script src="https://d3js.org/d3.v3.min.js"></script>       
+    
+		
+    </head>
+    <body>
+		
+			
+			<div id="full-page">
+				<nav class="navbar fixed-top navbar-light bg-light">
+					<div class="container-fluid">
+						
+						<form class="container-fluid justify-content-start">
+							<span class="navbar-text lead">Dr. John Snow's map of London's 1854 cholera epidemic</span>
+							<button class="btn btn-sm btn-secondary" type="button" onclick ="window.open('https://docs.google.com/document/d/1p4Ijb4nqvRKgFAl0HwJjfC37eOePogFN/edit?usp=sharing&ouid=105647424270281484626&rtpof=true&sd=true')"   >Documentation</button>
+							<button class="btn btn-sm btn-warning" type="button" onclick ="window.open('https://youtu.be/xu95hHaq16w')" data-bs-toggle="modal" data-bs-target="#video">Video</button>		
+							
+						</form>
+						
+					</div>
+					
+				</nav>
+				
+				<div id="body">
+				<div id="main"  class ="main">
+					
+					<div id="main_map" class ="main_map">
+						
+							
+						  <div style="margin-top: 40px !important;" ></div>
+						<div class="slidecontainer" style="display: none;" >
+							<div class="sliderlabels">	<label id ="llabel" for="left">19-Aug</label></div>
+							<div class="slidermain">
+								<div class="slider" style="display: none;">
+									<div class="progress"></div>
+								</div>
+							
+								<div class="sliderinput">
+									<input id ="left" type="range" class="left" min="0" max="41" value="0" step="1">
+									<input id = "right" type="range" class="right" min="0" max="41" value="41" step="1">
+								</div>
+							</div>
+							<div class="sliderlabels">	<label id ="rlabel" for="right">29-Sept</label></div>
+						</div>
+						<svg id="g" width="600" height="500" class="border border-dark drop-lg" style="margin-left: 20px;"></svg>
+					</div>
+					<div style="margin-top: 40px !important;" ></div>
+					<div id="main_bar" class ="main_bar">
+					
+					</div>
+					
+				</div>
+				<div id="foot" class="foot drop">
+					<div id="foot_toatlpie" class="foot_toatlpie">
+					<svg id="svgtotal"></svg>
+					<svg id="legend_svg"></svg>
+					</div>
+					<div id="foot_MFpie" class="foot_MFpie"></div>
+				</div>
+				</div>
+			   </div>
+		
+			
+        <script src="js/code.js"></script>
+		
+    </body>
+</html>
